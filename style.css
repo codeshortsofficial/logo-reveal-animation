@@ -1,0 +1,70 @@
+:root {
+  --bg-1: #1b1b1c;
+  --bg-opa: #1b1b1c00;
+}
+body {
+  background-color: var(--bg-1);
+}
+main {
+  background-color: var(--bg-1);
+  color: var(--white);
+}
+.login_login__J2ObG {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  padding-bottom: calc(var(--1) * 100);
+  isolation: isolate;
+  z-index: 999;
+  background-color: var(--bg-1);
+}
+.login_login__J2ObG .login_overlay__2wnae {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 200vw;
+  height: 200vw;
+  background: radial-gradient(
+    circle at center,
+    var(--bg-opa) 0,
+    var(--bg-1) 20%,
+    var(--bg-1) 100%
+  );
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  transition: transform 0.6 ease-out;
+}
+.login_login__J2ObG .login_bg__t9gTO {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -2;
+}
+.login_login__J2ObG .login_bg__t9gTO .login_bgLogo__6YCSU {
+  position: absolute;
+  width: calc(var(--1) * 1600);
+  height: calc(var(--1) * 400);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo_logo__cZ2yZ {
+  position: relative;
+  display: flex;
+}
+.login_login__J2ObG .login_bg__t9gTO .login_bgLogo__6YCSU img {
+  width: calc(var(--1) * 1600);
+  height: calc(var(--1) * 400);
+}
