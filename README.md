@@ -1,3 +1,3 @@
 Logo Reveal Animation
 
-Preview Link Codepen : https://codepen.io/naeemprasla/pen/BagyLav
+Preview Link: https://logorevealanimation.netlify.app/
