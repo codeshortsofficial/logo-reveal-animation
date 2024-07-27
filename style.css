@@ -29,15 +29,10 @@ main {
   top: 50%;
   width: 200vw;
   height: 200vw;
-  background: radial-gradient(
-    circle at center,
-    var(--bg-opa) 0,
-    var(--bg-1) 20%,
-    var(--bg-1) 100%
-  );
+  background: radial-gradient(circle at center, #ffffff00 0, #000000 14%, var(--bg-1) 140%);
   z-index: -1;
   transform: translate(-50%, -50%);
-  transition: transform 0.6 ease-out;
+  transition: all 0.6 ease-out;
 }
 .login_login__J2ObG .login_bg__t9gTO {
   width: 100%;
